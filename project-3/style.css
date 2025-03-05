@@ -51,24 +51,45 @@ h1 {
 
 .container input[type="text"]{
 	padding: 10px;
-	margin-top: 15px;
-	background-color: azure;
+	/* margin-top: 15px; */
+	background-color: #ddd;
 	outline: none;
 	border: none;
 	border-radius: 10px;
+	margin-left: 1.2rem;
 }
 
 #copy{
     color: #fff;
-    display: inline;
 }
 
 #copy-btn{
-    padding: 10px 15px;
+    padding: 0.5rem 1rem;
     border: none;
     border-radius: 10px;
     cursor: pointer;
 	
+}
+
+.input-group{
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	gap: 0.5rem;
+	position: relative;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.input-icon{
+	position: absolute;
+	padding: 10px ;
+	background-color: #ddd;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	color: #424242;
+
+
 }
 
 .toast-msg {
@@ -114,3 +135,4 @@ h1 {
         opacity: 0;
     }
 }
+
